@@ -167,18 +167,18 @@ const LandingPage = () => {
                     <div className="grid md:grid-cols-3 gap-8">
                         <FeatureCard
                             icon={<Zap className="w-6 h-6 text-yellow-400" />}
-                            title="Lightning Fast"
-                            description="Process thousands of rows instantly. Our optimized engine handles heavy lifting right in your browser."
+                            title="Instant Visualization"
+                            description="Drag, drop, and visualize. Turn your Excel files into interactive dashboards in seconds."
                         />
                         <FeatureCard
                             icon={<Shield className="w-6 h-6 text-green-400" />}
-                            title="Secure by Design"
-                            description="Your data never leaves your device until you choose to share it. Enterprise-grade security for everyone."
+                            title="Privacy First"
+                            description="Your data stays locally on your device. Zero server-side storage ensures complete confidentiality."
                         />
                         <FeatureCard
                             icon={<Users className="w-6 h-6 text-pink-400" />}
-                            title="Team Collaboration"
-                            description="Share dashboards with a single click. Comment, annotate, and drive decisions together."
+                            title="Smart Reporting"
+                            description="Export your analysis to high-quality PDF reports for seamless sharing with stakeholders."
                         />
                     </div>
                 </div>
