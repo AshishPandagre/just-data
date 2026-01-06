@@ -27,9 +27,6 @@ const LandingPage = () => {
                         </div>
 
                         <div className="flex items-center gap-6">
-                            <Link to="/dashboards" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
-                                Log In
-                            </Link>
                             <Link to="/dashboards">
                                 <motion.button
                                     whileHover={{ scale: 1.05 }}
